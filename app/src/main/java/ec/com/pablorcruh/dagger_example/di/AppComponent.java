@@ -12,6 +12,8 @@ import ec.com.pablorcruh.dagger_example.BaseApplication;
 @Component(
         modules = {
                 AndroidSupportInjectionModule.class,
+                ActivityBuildersModule.class,
+                AppModule.class,
         }
 )
 public interface AppComponent extends AndroidInjector<BaseApplication> {
